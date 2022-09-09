@@ -1,0 +1,84 @@
+python main.py --data data/ --bs 10 --ebs 10 --mode benchmark-inference --amp --backbone resnet18
+DLL 2022-09-07 22:44:14.121510 - () avg_img/sec : 178.32925170068026 images/s med_img/sec : 531.5009926574926 images/s min_img/sec : 67.30258776863323 images/s max_img/sec : 1601.9799862500954 images/s
+Done benchmarking. Total images: 200    total time: 1.122       Average images/sec: 178.329     Median images/sec: 531.501
+DLL 2022-09-07 22:44:14.140738 - (0,) time : 4.585156440734863
+Evaluation loss: 12.550457954406738
+
+python main.py --data data/ --bs 10 --ebs 10 --mode benchmark-training --amp --backbone resnet18
+DLL 2022-09-07 22:46:01.515742 - () avg_img/sec : 224.75483859040597 images/s med_img/sec : 217.92476553581946 images/s min_img/sec : 187.78307567637748 images/s max_img/sec : 298.27434414979484 images/s
+Done benchmarking. Total images: 200    total time: 0.890       Average images/sec: 224.755     Median images/sec: 217.925
+Training performance = 217.9247589111328 FP
+
+python main.py --data data/ --bs 10 --ebs 10 --mode benchmark-inference --amp
+DLL 2022-09-07 07:33:20.575026 - () avg_img/sec : 151.24730315025226 images/s med_img/sec : 312.9913242139613 images/s min_img/sec : 63.63075597386383 images/s max_img/sec : 958.369473323432 images/s
+Done benchmarking. Total images: 200    total time: 1.322       Average images/sec: 151.247     Median images/sec: 312.991
+
+python main.py --data data/ --bs 10 --ebs 10 --mode benchmark-training --amp
+DLL 2022-09-07 07:34:45.079413 - () avg_img/sec : 87.02203205369663 images/s med_img/sec : 86.27972217017674 images/s min_img/sec : 80.74120987535493 images/s max_img/sec : 101.30459460569188 images/s
+Done benchmarking. Total images: 200    total time: 2.298       Average images/sec: 87.022      Median images/sec: 86.280
+Training performance = 86.27972412109375 FPS
+
+python main.py --data data/ --bs 10 --ebs 10 --mode benchmark-inference
+Done benchmarking. Total images: 200    total time: 1.524       Average images/sec: 131.205     Median images/sec: 199.986
+DLL 2022-09-07 07:39:59.788515 - (0,) time : 5.982158422470093
+
+python main.py --data data/ --bs 10 --ebs 10 --mode benchmark-training
+DLL 2022-09-07 07:41:15.145847 - () avg_img/sec : 64.18620915245224 images/s med_img/sec : 64.22666803328616 images/s min_img/sec : 62.83441470404499 images/s max_img/sec : 65.50723822821543 images/s
+Done benchmarking. Total images: 200    total time: 3.116       Average images/sec: 64.186      Median images/sec: 64.227
+Training performance = 64.22666931152344 FPS
+
+python main.py --data data/ --bs 6 --ebs 6 --mode benchmark-training --lf
+DLL 2022-09-09 15:45:25.102003 - () avg_img/sec : 20.797589756863353 images/s med_img/sec : 20.85883054608423 images/s min_img/sec : 20.1247220096394 images/s max_img/sec : 21.025274618775335 images/s
+Done benchmarking. Total images: 120    total time: 5.770       Average images/sec: 20.798      Median images/sec: 20.859
+Training performance = 20.85883140563965 FPS
+
+python main.py --data data/ --bs 6 --ebs 6 --mode benchmark-inference --lf
+DLL 2022-09-09 15:46:24.069007 - () avg_img/sec : 55.31355151926503 images/s med_img/sec : 62.8723495799761 images/s min_img/sec : 30.141815803783384 images/s max_img/sec : 125.81968352373572 images/s
+Done benchmarking. Total images: 120    total time: 2.169       Average images/sec: 55.314      Median images/sec: 62.872
+DLL 2022-09-09 15:46:24.086677 - (0,) time : 7.771650791168213
+Evaluation loss: 10.182792901992798
+
+python main.py --data data/ --bs 10 --ebs 10 --mode benchmark-inference --larger-features --amp
+DLL 2022-09-07 22:47:06.930969 - () avg_img/sec : 95.44957668085979 images/s med_img/sec : 111.18749034351913 images/s min_img/sec : 47.66194968017445 images/s max_img/sec : 677.4731469367317 images/s
+Done benchmarking. Total images: 200    total time: 2.095       Average images/sec: 95.450      Median images/sec: 111.187
+DLL 2022-09-07 22:47:06.949522 - (0,) time : 7.323804140090942
+Evaluation loss: 10.139132181803385
+
+python main.py --data data/ --bs 10 --ebs 10 --mode benchmark-training --larger-features --amp
+DLL 2022-09-07 22:48:06.220739 - () avg_img/sec : 36.1033144468898 images/s med_img/sec : 36.059793164302846 images/s min_img/sec : 34.580647288946786 images/s max_img/sec : 37.714219945905505 images/s
+Done benchmarking. Total images: 200    total time: 5.540       Average images/sec: 36.103      Median images/sec: 36.060
+Training performance = 36.059791564941406 FPS
+DLL 2022-09-07 22:48:06.221376 - (0,) time : 15.355404376983643
+
+python main.py --data data/ --bs 10 --ebs 10 --mode benchmark-inference --scales 10 21 45 99 153 207 261 --amp
+Done benchmarking. Total images: 200    total time: 1.537       Average images/sec: 130.161     Median images/sec: 276.385
+DLL 2022-09-07 09:25:51.724783 - (0,) time : 6.140649795532227
+Evaluation loss: 11.771879514058432
+
+python main.py --data data/ --bs 10 --ebs 10 --mode benchmark-training --scales 10 21 45 99 153 207 261 --amp
+DLL 2022-09-07 09:26:21.922588 - () avg_img/sec : 92.66844456110013 images/s med_img/sec : 88.47037331823067 images/s min_img/sec : 84.38666167706837 images/s max_img/sec : 110.57020989418297 images/s
+Done benchmarking. Total images: 200    total time: 2.158       Average images/sec: 92.668      Median images/sec: 88.470
+Training performance = 88.47037506103516 FPS
+
+python main.py --data data/ --bs 10 --ebs 10 --mode benchmark-inference --aspect-ratio-0 2 3 --amp
+DLL 2022-09-07 09:22:51.881399 - () avg_img/sec : 136.72451176441538 images/s med_img/sec : 302.03664320363873 images/s min_img/sec : 57.66594944627378 images/s max_img/sec : 790.215155054825 images/s
+Done benchmarking. Total images: 200    total time: 1.463       Average images/sec: 136.725     Median images/sec: 302.037
+DLL 2022-09-07 09:22:51.900101 - (0,) time : 5.7514848709106445
+
+python main.py --data data/ --bs 10 --ebs 10 --mode benchmark-training --aspect-ratio-0 2 3 --amp
+DLL 2022-09-07 09:24:05.377949 - () avg_img/sec : 95.62780725302814 images/s med_img/sec : 92.17734142175019 images/s min_img/sec : 87.07114238857403 images/s max_img/sec : 110.48166937977757 images/s
+Done benchmarking. Total images: 200    total time: 2.091       Average images/sec: 95.628      Median images/sec: 92.177
+Training performance = 92.17733764648438 FPS
+
+python main.py --data data/ --bs 10 --ebs 10 --mode benchmark-inference --aspect-ratio-0 2 3 4 --amp
+DLL 2022-09-07 22:48:33.139328 - () avg_img/sec : 147.56302065714965 images/s med_img/sec : 292.96386082673513 images/s min_img/sec : 63.9384381797921 images/s max_img/sec : 938.6590278399427 images/s
+Done benchmarking. Total images: 200    total time: 1.355       Average images/sec: 147.563     Median images/sec: 292.964
+DLL 2022-09-07 22:48:33.157673 - (0,) time : 5.136854887008667
+Evaluation loss: 10.404534657796225
+
+python main.py --data data/ --bs 10 --ebs 10 --mode benchmark-training --aspect-ratio-0 2 3 4 --amp
+DLL 2022-09-07 22:48:58.446152 - () avg_img/sec : 99.08588439140718 images/s med_img/sec : 105.05923162402374 images/s min_img/sec : 87.47609910736631 images/s max_img/sec : 109.54274312338727 images/s
+Done benchmarking. Total images: 200    total time: 2.018       Average images/sec: 99.086      Median images/sec: 105.059
+Training performance = 105.05923461914062 FPS
+DLL 2022-09-07 22:48:58.446692 - (0,) time : 7.483254432678223
+Evaluation loss: 7.926362196604411

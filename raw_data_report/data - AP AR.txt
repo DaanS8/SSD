@@ -1,0 +1,1035 @@
+python main.py --data data/ --bs 10 --ebs 10 --backbone resnet18 --evaluation 64
+DONE (t=0.02s).
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.134 | catId=All
+ Average Precision  (AP) @[ IoU=0.50      | area=   all | maxDets=100 ] = 0.383 | catId=All
+ Average Precision  (AP) @[ IoU=0.60      | area=   all | maxDets=100 ] = 0.247 | catId=All
+ Average Precision  (AP) @[ IoU=0.70      | area=   all | maxDets=100 ] = 0.112 | catId=All
+ Average Precision  (AP) @[ IoU=0.80      | area=   all | maxDets=100 ] = 0.022 | catId=All
+ Average Precision  (AP) @[ IoU=0.90      | area=   all | maxDets=100 ] = -1.000 | catId=All
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.149 | catId=All
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.353 | catId=All
+ Average Recall     (AR) @[ IoU=0.50      | area=   all | maxDets=100 ] = 0.608 | catId=All
+ Average Recall     (AR) @[ IoU=0.60      | area=   all | maxDets=100 ] = 0.453 | catId=All
+ Average Recall     (AR) @[ IoU=0.70      | area=   all | maxDets=100 ] = 0.216 | catId=All
+ Average Recall     (AR) @[ IoU=0.80      | area=   all | maxDets=100 ] = 0.064 | catId=All
+ Average Recall     (AR) @[ IoU=0.90      | area=   all | maxDets=100 ] = -1.000 | catId=All
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.228 | catId=All
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.469 | catId=All
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.009 | catId=ball
+ Average Precision  (AP) @[ IoU=0.50      | area=   all | maxDets=100 ] = 0.028 | catId=ball
+ Average Precision  (AP) @[ IoU=0.60      | area=   all | maxDets=100 ] = 0.021 | catId=ball
+ Average Precision  (AP) @[ IoU=0.70      | area=   all | maxDets=100 ] = 0.007 | catId=ball
+ Average Precision  (AP) @[ IoU=0.80      | area=   all | maxDets=100 ] = 0.000 | catId=ball
+ Average Precision  (AP) @[ IoU=0.90      | area=   all | maxDets=100 ] = -1.000 | catId=ball
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.087 | catId=ball
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = -1.000 | catId=ball
+ Average Recall     (AR) @[ IoU=0.50      | area=   all | maxDets=100 ] = 0.300 | catId=ball
+ Average Recall     (AR) @[ IoU=0.60      | area=   all | maxDets=100 ] = 0.200 | catId=ball
+ Average Recall     (AR) @[ IoU=0.70      | area=   all | maxDets=100 ] = 0.050 | catId=ball
+ Average Recall     (AR) @[ IoU=0.80      | area=   all | maxDets=100 ] = 0.000 | catId=ball
+ Average Recall     (AR) @[ IoU=0.90      | area=   all | maxDets=100 ] = -1.000 | catId=ball
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.085 | catId=ball
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = -1.000 | catId=ball
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.221 | catId=hand
+ Average Precision  (AP) @[ IoU=0.50      | area=   all | maxDets=100 ] = 0.594 | catId=hand
+ Average Precision  (AP) @[ IoU=0.60      | area=   all | maxDets=100 ] = 0.428 | catId=hand
+ Average Precision  (AP) @[ IoU=0.70      | area=   all | maxDets=100 ] = 0.200 | catId=hand
+ Average Precision  (AP) @[ IoU=0.80      | area=   all | maxDets=100 ] = 0.037 | catId=hand
+ Average Precision  (AP) @[ IoU=0.90      | area=   all | maxDets=100 ] = -1.000 | catId=hand
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.225 | catId=hand
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.254 | catId=hand
+ Average Recall     (AR) @[ IoU=0.50      | area=   all | maxDets=100 ] = 0.807 | catId=hand
+ Average Recall     (AR) @[ IoU=0.60      | area=   all | maxDets=100 ] = 0.670 | catId=hand
+ Average Recall     (AR) @[ IoU=0.70      | area=   all | maxDets=100 ] = 0.352 | catId=hand
+ Average Recall     (AR) @[ IoU=0.80      | area=   all | maxDets=100 ] = 0.114 | catId=hand
+ Average Recall     (AR) @[ IoU=0.90      | area=   all | maxDets=100 ] = -1.000 | catId=hand
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.350 | catId=hand
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.417 | catId=hand
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.172 | catId=figure
+ Average Precision  (AP) @[ IoU=0.50      | area=   all | maxDets=100 ] = 0.526 | catId=figure
+ Average Precision  (AP) @[ IoU=0.60      | area=   all | maxDets=100 ] = 0.293 | catId=figure
+ Average Precision  (AP) @[ IoU=0.70      | area=   all | maxDets=100 ] = 0.127 | catId=figure
+ Average Precision  (AP) @[ IoU=0.80      | area=   all | maxDets=100 ] = 0.029 | catId=figure
+ Average Precision  (AP) @[ IoU=0.90      | area=   all | maxDets=100 ] = -1.000 | catId=figure
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.136 | catId=figure
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.451 | catId=figure
+ Average Recall     (AR) @[ IoU=0.50      | area=   all | maxDets=100 ] = 0.718 | catId=figure
+ Average Recall     (AR) @[ IoU=0.60      | area=   all | maxDets=100 ] = 0.487 | catId=figure
+ Average Recall     (AR) @[ IoU=0.70      | area=   all | maxDets=100 ] = 0.245 | catId=figure
+ Average Recall     (AR) @[ IoU=0.80      | area=   all | maxDets=100 ] = 0.079 | catId=figure
+ Average Recall     (AR) @[ IoU=0.90      | area=   all | maxDets=100 ] = -1.000 | catId=figure
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.250 | catId=figure
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.522 | catId=figure
+Current AP: 0.13416
+Evaluation loss: 4.231719175974528
+DLL 2022-09-07 22:42:34.358704 - (64,) mAP : 0.13416188071668375 None
+
+DLL 2022-09-07 22:42:34.358771 - () total time : 40.19748258590698
+Average time: 0.6184228090139535
+
+python main.py --data data/ --bs 10 --ebs 10 --evaluation 64
+DONE (t=0.02s).
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.192 | catId=All
+ Average Precision  (AP) @[ IoU=0.50      | area=   all | maxDets=100 ] = 0.520 | catId=All
+ Average Precision  (AP) @[ IoU=0.60      | area=   all | maxDets=100 ] = 0.395 | catId=All
+ Average Precision  (AP) @[ IoU=0.70      | area=   all | maxDets=100 ] = 0.161 | catId=All
+ Average Precision  (AP) @[ IoU=0.80      | area=   all | maxDets=100 ] = 0.030 | catId=All
+ Average Precision  (AP) @[ IoU=0.90      | area=   all | maxDets=100 ] = -1.000 | catId=All
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.195 | catId=All
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.425 | catId=All
+ Average Recall     (AR) @[ IoU=0.50      | area=   all | maxDets=100 ] = 0.659 | catId=All
+ Average Recall     (AR) @[ IoU=0.60      | area=   all | maxDets=100 ] = 0.530 | catId=All
+ Average Recall     (AR) @[ IoU=0.70      | area=   all | maxDets=100 ] = 0.293 | catId=All
+ Average Recall     (AR) @[ IoU=0.80      | area=   all | maxDets=100 ] = 0.087 | catId=All
+ Average Recall     (AR) @[ IoU=0.90      | area=   all | maxDets=100 ] = -1.000 | catId=All
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.274 | catId=All
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.505 | catId=All
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.044 | catId=ball
+ Average Precision  (AP) @[ IoU=0.50      | area=   all | maxDets=100 ] = 0.141 | catId=ball
+ Average Precision  (AP) @[ IoU=0.60      | area=   all | maxDets=100 ] = 0.126 | catId=ball
+ Average Precision  (AP) @[ IoU=0.70      | area=   all | maxDets=100 ] = 0.005 | catId=ball
+ Average Precision  (AP) @[ IoU=0.80      | area=   all | maxDets=100 ] = 0.000 | catId=ball
+ Average Precision  (AP) @[ IoU=0.90      | area=   all | maxDets=100 ] = -1.000 | catId=ball
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.086 | catId=ball
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = -1.000 | catId=ball
+ Average Recall     (AR) @[ IoU=0.50      | area=   all | maxDets=100 ] = 0.300 | catId=ball
+ Average Recall     (AR) @[ IoU=0.60      | area=   all | maxDets=100 ] = 0.250 | catId=ball
+ Average Recall     (AR) @[ IoU=0.70      | area=   all | maxDets=100 ] = 0.050 | catId=ball
+ Average Recall     (AR) @[ IoU=0.80      | area=   all | maxDets=100 ] = 0.000 | catId=ball
+ Average Recall     (AR) @[ IoU=0.90      | area=   all | maxDets=100 ] = -1.000 | catId=ball
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.110 | catId=ball
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = -1.000 | catId=ball
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.303 | catId=hand
+ Average Precision  (AP) @[ IoU=0.50      | area=   all | maxDets=100 ] = 0.775 | catId=hand
+ Average Precision  (AP) @[ IoU=0.60      | area=   all | maxDets=100 ] = 0.619 | catId=hand
+ Average Precision  (AP) @[ IoU=0.70      | area=   all | maxDets=100 ] = 0.293 | catId=hand
+ Average Precision  (AP) @[ IoU=0.80      | area=   all | maxDets=100 ] = 0.041 | catId=hand
+ Average Precision  (AP) @[ IoU=0.90      | area=   all | maxDets=100 ] = -1.000 | catId=hand
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.302 | catId=hand
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.371 | catId=hand
+ Average Recall     (AR) @[ IoU=0.50      | area=   all | maxDets=100 ] = 0.909 | catId=hand
+ Average Recall     (AR) @[ IoU=0.60      | area=   all | maxDets=100 ] = 0.750 | catId=hand
+ Average Recall     (AR) @[ IoU=0.70      | area=   all | maxDets=100 ] = 0.500 | catId=hand
+ Average Recall     (AR) @[ IoU=0.80      | area=   all | maxDets=100 ] = 0.136 | catId=hand
+ Average Recall     (AR) @[ IoU=0.90      | area=   all | maxDets=100 ] = -1.000 | catId=hand
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.410 | catId=hand
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.467 | catId=hand
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.229 | catId=figure
+ Average Precision  (AP) @[ IoU=0.50      | area=   all | maxDets=100 ] = 0.644 | catId=figure
+ Average Precision  (AP) @[ IoU=0.60      | area=   all | maxDets=100 ] = 0.439 | catId=figure
+ Average Precision  (AP) @[ IoU=0.70      | area=   all | maxDets=100 ] = 0.185 | catId=figure
+ Average Precision  (AP) @[ IoU=0.80      | area=   all | maxDets=100 ] = 0.049 | catId=figure
+ Average Precision  (AP) @[ IoU=0.90      | area=   all | maxDets=100 ] = -1.000 | catId=figure
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.197 | catId=figure
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.479 | catId=figure
+ Average Recall     (AR) @[ IoU=0.50      | area=   all | maxDets=100 ] = 0.767 | catId=figure
+ Average Recall     (AR) @[ IoU=0.60      | area=   all | maxDets=100 ] = 0.589 | catId=figure
+ Average Recall     (AR) @[ IoU=0.70      | area=   all | maxDets=100 ] = 0.328 | catId=figure
+ Average Recall     (AR) @[ IoU=0.80      | area=   all | maxDets=100 ] = 0.125 | catId=figure
+ Average Recall     (AR) @[ IoU=0.90      | area=   all | maxDets=100 ] = -1.000 | catId=figure
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.302 | catId=figure
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.544 | catId=figure
+Current AP: 0.19201
+Evaluation loss: 3.83703343073527
+DLL 2022-09-06 16:40:37.473461 - (64,) mAP : 0.19201002112738752 None
+
+DLL 2022-09-06 16:40:37.473540 - () total time : 112.81068825721741
+Average time: 1.735549050111037
+DLL 2022-09-06 16:40:37.473571 - () mAP : 0.19201002112738752 None
+
+
+python main.py --data data/ --bs 10 --ebs 10 --amp --evaluation 64
+DONE (t=0.02s).
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.196 | catId=All
+ Average Precision  (AP) @[ IoU=0.50      | area=   all | maxDets=100 ] = 0.513 | catId=All
+ Average Precision  (AP) @[ IoU=0.60      | area=   all | maxDets=100 ] = 0.388 | catId=All
+ Average Precision  (AP) @[ IoU=0.70      | area=   all | maxDets=100 ] = 0.167 | catId=All
+ Average Precision  (AP) @[ IoU=0.80      | area=   all | maxDets=100 ] = 0.046 | catId=All
+ Average Precision  (AP) @[ IoU=0.90      | area=   all | maxDets=100 ] = -1.000 | catId=All
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.203 | catId=All
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.447 | catId=All
+ Average Recall     (AR) @[ IoU=0.50      | area=   all | maxDets=100 ] = 0.664 | catId=All
+ Average Recall     (AR) @[ IoU=0.60      | area=   all | maxDets=100 ] = 0.536 | catId=All
+ Average Recall     (AR) @[ IoU=0.70      | area=   all | maxDets=100 ] = 0.308 | catId=All
+ Average Recall     (AR) @[ IoU=0.80      | area=   all | maxDets=100 ] = 0.131 | catId=All
+ Average Recall     (AR) @[ IoU=0.90      | area=   all | maxDets=100 ] = -1.000 | catId=All
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.288 | catId=All
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.519 | catId=All
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.045 | catId=ball
+ Average Precision  (AP) @[ IoU=0.50      | area=   all | maxDets=100 ] = 0.127 | catId=ball
+ Average Precision  (AP) @[ IoU=0.60      | area=   all | maxDets=100 ] = 0.122 | catId=ball
+ Average Precision  (AP) @[ IoU=0.70      | area=   all | maxDets=100 ] = 0.017 | catId=ball
+ Average Precision  (AP) @[ IoU=0.80      | area=   all | maxDets=100 ] = 0.003 | catId=ball
+ Average Precision  (AP) @[ IoU=0.90      | area=   all | maxDets=100 ] = -1.000 | catId=ball
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.094 | catId=ball
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = -1.000 | catId=ball
+ Average Recall     (AR) @[ IoU=0.50      | area=   all | maxDets=100 ] = 0.300 | catId=ball
+ Average Recall     (AR) @[ IoU=0.60      | area=   all | maxDets=100 ] = 0.250 | catId=ball
+ Average Recall     (AR) @[ IoU=0.70      | area=   all | maxDets=100 ] = 0.100 | catId=ball
+ Average Recall     (AR) @[ IoU=0.80      | area=   all | maxDets=100 ] = 0.050 | catId=ball
+ Average Recall     (AR) @[ IoU=0.90      | area=   all | maxDets=100 ] = -1.000 | catId=ball
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.125 | catId=ball
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = -1.000 | catId=ball
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.317 | catId=hand
+ Average Precision  (AP) @[ IoU=0.50      | area=   all | maxDets=100 ] = 0.764 | catId=hand
+ Average Precision  (AP) @[ IoU=0.60      | area=   all | maxDets=100 ] = 0.638 | catId=hand
+ Average Precision  (AP) @[ IoU=0.70      | area=   all | maxDets=100 ] = 0.300 | catId=hand
+ Average Precision  (AP) @[ IoU=0.80      | area=   all | maxDets=100 ] = 0.068 | catId=hand
+ Average Precision  (AP) @[ IoU=0.90      | area=   all | maxDets=100 ] = -1.000 | catId=hand
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.315 | catId=hand
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.433 | catId=hand
+ Average Recall     (AR) @[ IoU=0.50      | area=   all | maxDets=100 ] = 0.909 | catId=hand
+ Average Recall     (AR) @[ IoU=0.60      | area=   all | maxDets=100 ] = 0.784 | catId=hand
+ Average Recall     (AR) @[ IoU=0.70      | area=   all | maxDets=100 ] = 0.477 | catId=hand
+ Average Recall     (AR) @[ IoU=0.80      | area=   all | maxDets=100 ] = 0.193 | catId=hand
+ Average Recall     (AR) @[ IoU=0.90      | area=   all | maxDets=100 ] = -1.000 | catId=hand
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.430 | catId=hand
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.467 | catId=hand
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.227 | catId=figure
+ Average Precision  (AP) @[ IoU=0.50      | area=   all | maxDets=100 ] = 0.650 | catId=figure
+ Average Precision  (AP) @[ IoU=0.60      | area=   all | maxDets=100 ] = 0.405 | catId=figure
+ Average Precision  (AP) @[ IoU=0.70      | area=   all | maxDets=100 ] = 0.185 | catId=figure
+ Average Precision  (AP) @[ IoU=0.80      | area=   all | maxDets=100 ] = 0.066 | catId=figure
+ Average Precision  (AP) @[ IoU=0.90      | area=   all | maxDets=100 ] = -1.000 | catId=figure
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.201 | catId=figure
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.461 | catId=figure
+ Average Recall     (AR) @[ IoU=0.50      | area=   all | maxDets=100 ] = 0.783 | catId=figure
+ Average Recall     (AR) @[ IoU=0.60      | area=   all | maxDets=100 ] = 0.573 | catId=figure
+ Average Recall     (AR) @[ IoU=0.70      | area=   all | maxDets=100 ] = 0.346 | catId=figure
+ Average Recall     (AR) @[ IoU=0.80      | area=   all | maxDets=100 ] = 0.150 | catId=figure
+ Average Recall     (AR) @[ IoU=0.90      | area=   all | maxDets=100 ] = -1.000 | catId=figure
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.308 | catId=figure
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.571 | catId=figure
+Current AP: 0.19621
+Evaluation loss: 3.709576447804769
+DLL 2022-09-07 07:16:13.492594 - (64,) mAP : 0.19621300246510176 None
+
+DLL 2022-09-07 07:16:13.492659 - () total time : 76.88430976867676
+Average time: 1.1828355349027193
+DLL 2022-09-07 07:16:13.492699 - () mAP : 0.19621300246510176 None
+
+python main.py --data data/ --bs 10 --ebs 10 --evaluation 64 --aspect-ratio-0 2 3 4 --amp
+DONE (t=0.02s).
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.160 | catId=All
+ Average Precision  (AP) @[ IoU=0.50      | area=   all | maxDets=100 ] = 0.440 | catId=All
+ Average Precision  (AP) @[ IoU=0.60      | area=   all | maxDets=100 ] = 0.315 | catId=All
+ Average Precision  (AP) @[ IoU=0.70      | area=   all | maxDets=100 ] = 0.135 | catId=All
+ Average Precision  (AP) @[ IoU=0.80      | area=   all | maxDets=100 ] = 0.024 | catId=All
+ Average Precision  (AP) @[ IoU=0.90      | area=   all | maxDets=100 ] = -1.000 | catId=All
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.174 | catId=All
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.431 | catId=All
+ Average Recall     (AR) @[ IoU=0.50      | area=   all | maxDets=100 ] = 0.598 | catId=All
+ Average Recall     (AR) @[ IoU=0.60      | area=   all | maxDets=100 ] = 0.499 | catId=All
+ Average Recall     (AR) @[ IoU=0.70      | area=   all | maxDets=100 ] = 0.284 | catId=All
+ Average Recall     (AR) @[ IoU=0.80      | area=   all | maxDets=100 ] = 0.084 | catId=All
+ Average Recall     (AR) @[ IoU=0.90      | area=   all | maxDets=100 ] = -1.000 | catId=All
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.250 | catId=All
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.516 | catId=All
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.009 | catId=ball
+ Average Precision  (AP) @[ IoU=0.50      | area=   all | maxDets=100 ] = 0.020 | catId=ball
+ Average Precision  (AP) @[ IoU=0.60      | area=   all | maxDets=100 ] = 0.020 | catId=ball
+ Average Precision  (AP) @[ IoU=0.70      | area=   all | maxDets=100 ] = 0.004 | catId=ball
+ Average Precision  (AP) @[ IoU=0.80      | area=   all | maxDets=100 ] = 0.001 | catId=ball
+ Average Precision  (AP) @[ IoU=0.90      | area=   all | maxDets=100 ] = -1.000 | catId=ball
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.083 | catId=ball
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = -1.000 | catId=ball
+ Average Recall     (AR) @[ IoU=0.50      | area=   all | maxDets=100 ] = 0.250 | catId=ball
+ Average Recall     (AR) @[ IoU=0.60      | area=   all | maxDets=100 ] = 0.250 | catId=ball
+ Average Recall     (AR) @[ IoU=0.70      | area=   all | maxDets=100 ] = 0.150 | catId=ball
+ Average Recall     (AR) @[ IoU=0.80      | area=   all | maxDets=100 ] = 0.050 | catId=ball
+ Average Recall     (AR) @[ IoU=0.90      | area=   all | maxDets=100 ] = -1.000 | catId=ball
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.125 | catId=ball
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = -1.000 | catId=ball
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.261 | catId=hand
+ Average Precision  (AP) @[ IoU=0.50      | area=   all | maxDets=100 ] = 0.735 | catId=hand
+ Average Precision  (AP) @[ IoU=0.60      | area=   all | maxDets=100 ] = 0.519 | catId=hand
+ Average Precision  (AP) @[ IoU=0.70      | area=   all | maxDets=100 ] = 0.213 | catId=hand
+ Average Precision  (AP) @[ IoU=0.80      | area=   all | maxDets=100 ] = 0.050 | catId=hand
+ Average Precision  (AP) @[ IoU=0.90      | area=   all | maxDets=100 ] = -1.000 | catId=hand
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.254 | catId=hand
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.396 | catId=hand
+ Average Recall     (AR) @[ IoU=0.50      | area=   all | maxDets=100 ] = 0.841 | catId=hand
+ Average Recall     (AR) @[ IoU=0.60      | area=   all | maxDets=100 ] = 0.705 | catId=hand
+ Average Recall     (AR) @[ IoU=0.70      | area=   all | maxDets=100 ] = 0.398 | catId=hand
+ Average Recall     (AR) @[ IoU=0.80      | area=   all | maxDets=100 ] = 0.102 | catId=hand
+ Average Recall     (AR) @[ IoU=0.90      | area=   all | maxDets=100 ] = -1.000 | catId=hand
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.355 | catId=hand
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.483 | catId=hand
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.209 | catId=figure
+ Average Precision  (AP) @[ IoU=0.50      | area=   all | maxDets=100 ] = 0.564 | catId=figure
+ Average Precision  (AP) @[ IoU=0.60      | area=   all | maxDets=100 ] = 0.406 | catId=figure
+ Average Precision  (AP) @[ IoU=0.70      | area=   all | maxDets=100 ] = 0.189 | catId=figure
+ Average Precision  (AP) @[ IoU=0.80      | area=   all | maxDets=100 ] = 0.023 | catId=figure
+ Average Precision  (AP) @[ IoU=0.90      | area=   all | maxDets=100 ] = -1.000 | catId=figure
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.186 | catId=figure
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.466 | catId=figure
+ Average Recall     (AR) @[ IoU=0.50      | area=   all | maxDets=100 ] = 0.702 | catId=figure
+ Average Recall     (AR) @[ IoU=0.60      | area=   all | maxDets=100 ] = 0.543 | catId=figure
+ Average Recall     (AR) @[ IoU=0.70      | area=   all | maxDets=100 ] = 0.305 | catId=figure
+ Average Recall     (AR) @[ IoU=0.80      | area=   all | maxDets=100 ] = 0.099 | catId=figure
+ Average Recall     (AR) @[ IoU=0.90      | area=   all | maxDets=100 ] = -1.000 | catId=figure
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.271 | catId=figure
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.549 | catId=figure
+Current AP: 0.15972
+Evaluation loss: 3.9674465656280518
+DLL 2022-09-07 07:47:08.360625 - (64,) mAP : 0.15971701172916183 None
+
+DLL 2022-09-07 07:47:08.360709 - () total time : 77.45621991157532
+Average time: 1.191634152485774
+
+
+python main.py --data data/ --bs 10 --ebs 10 --evaluation 64 --aspect-ratio-0 2 3 --amp
+DONE (t=0.02s).
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.184 | catId=All
+ Average Precision  (AP) @[ IoU=0.50      | area=   all | maxDets=100 ] = 0.482 | catId=All
+ Average Precision  (AP) @[ IoU=0.60      | area=   all | maxDets=100 ] = 0.341 | catId=All
+ Average Precision  (AP) @[ IoU=0.70      | area=   all | maxDets=100 ] = 0.184 | catId=All
+ Average Precision  (AP) @[ IoU=0.80      | area=   all | maxDets=100 ] = 0.036 | catId=All
+ Average Precision  (AP) @[ IoU=0.90      | area=   all | maxDets=100 ] = -1.000 | catId=All
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.187 | catId=All
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.403 | catId=All
+ Average Recall     (AR) @[ IoU=0.50      | area=   all | maxDets=100 ] = 0.643 | catId=All
+ Average Recall     (AR) @[ IoU=0.60      | area=   all | maxDets=100 ] = 0.495 | catId=All
+ Average Recall     (AR) @[ IoU=0.70      | area=   all | maxDets=100 ] = 0.306 | catId=All
+ Average Recall     (AR) @[ IoU=0.80      | area=   all | maxDets=100 ] = 0.104 | catId=All
+ Average Recall     (AR) @[ IoU=0.90      | area=   all | maxDets=100 ] = -1.000 | catId=All
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.266 | catId=All
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.495 | catId=All
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.033 | catId=ball
+ Average Precision  (AP) @[ IoU=0.50      | area=   all | maxDets=100 ] = 0.123 | catId=ball
+ Average Precision  (AP) @[ IoU=0.60      | area=   all | maxDets=100 ] = 0.088 | catId=ball
+ Average Precision  (AP) @[ IoU=0.70      | area=   all | maxDets=100 ] = 0.002 | catId=ball
+ Average Precision  (AP) @[ IoU=0.80      | area=   all | maxDets=100 ] = 0.000 | catId=ball
+ Average Precision  (AP) @[ IoU=0.90      | area=   all | maxDets=100 ] = -1.000 | catId=ball
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.067 | catId=ball
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = -1.000 | catId=ball
+ Average Recall     (AR) @[ IoU=0.50      | area=   all | maxDets=100 ] = 0.300 | catId=ball
+ Average Recall     (AR) @[ IoU=0.60      | area=   all | maxDets=100 ] = 0.200 | catId=ball
+ Average Recall     (AR) @[ IoU=0.70      | area=   all | maxDets=100 ] = 0.050 | catId=ball
+ Average Recall     (AR) @[ IoU=0.80      | area=   all | maxDets=100 ] = 0.000 | catId=ball
+ Average Recall     (AR) @[ IoU=0.90      | area=   all | maxDets=100 ] = -1.000 | catId=ball
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.090 | catId=ball
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = -1.000 | catId=ball
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.305 | catId=hand
+ Average Precision  (AP) @[ IoU=0.50      | area=   all | maxDets=100 ] = 0.719 | catId=hand
+ Average Precision  (AP) @[ IoU=0.60      | area=   all | maxDets=100 ] = 0.550 | catId=hand
+ Average Precision  (AP) @[ IoU=0.70      | area=   all | maxDets=100 ] = 0.360 | catId=hand
+ Average Precision  (AP) @[ IoU=0.80      | area=   all | maxDets=100 ] = 0.059 | catId=hand
+ Average Precision  (AP) @[ IoU=0.90      | area=   all | maxDets=100 ] = -1.000 | catId=hand
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.303 | catId=hand
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.363 | catId=hand
+ Average Recall     (AR) @[ IoU=0.50      | area=   all | maxDets=100 ] = 0.875 | catId=hand
+ Average Recall     (AR) @[ IoU=0.60      | area=   all | maxDets=100 ] = 0.727 | catId=hand
+ Average Recall     (AR) @[ IoU=0.70      | area=   all | maxDets=100 ] = 0.534 | catId=hand
+ Average Recall     (AR) @[ IoU=0.80      | area=   all | maxDets=100 ] = 0.193 | catId=hand
+ Average Recall     (AR) @[ IoU=0.90      | area=   all | maxDets=100 ] = -1.000 | catId=hand
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.421 | catId=hand
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.450 | catId=hand
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.214 | catId=figure
+ Average Precision  (AP) @[ IoU=0.50      | area=   all | maxDets=100 ] = 0.606 | catId=figure
+ Average Precision  (AP) @[ IoU=0.60      | area=   all | maxDets=100 ] = 0.386 | catId=figure
+ Average Precision  (AP) @[ IoU=0.70      | area=   all | maxDets=100 ] = 0.189 | catId=figure
+ Average Precision  (AP) @[ IoU=0.80      | area=   all | maxDets=100 ] = 0.050 | catId=figure
+ Average Precision  (AP) @[ IoU=0.90      | area=   all | maxDets=100 ] = -1.000 | catId=figure
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.190 | catId=figure
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.443 | catId=figure
+ Average Recall     (AR) @[ IoU=0.50      | area=   all | maxDets=100 ] = 0.753 | catId=figure
+ Average Recall     (AR) @[ IoU=0.60      | area=   all | maxDets=100 ] = 0.559 | catId=figure
+ Average Recall     (AR) @[ IoU=0.70      | area=   all | maxDets=100 ] = 0.335 | catId=figure
+ Average Recall     (AR) @[ IoU=0.80      | area=   all | maxDets=100 ] = 0.120 | catId=figure
+ Average Recall     (AR) @[ IoU=0.90      | area=   all | maxDets=100 ] = -1.000 | catId=figure
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.288 | catId=figure
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.539 | catId=figure
+Current AP: 0.18413
+Evaluation loss: 3.809635321299235
+DLL 2022-09-07 07:53:03.047500 - (64,) mAP : 0.18412755373898507 None
+
+DLL 2022-09-07 07:53:03.047577 - () total time : 76.90757846832275
+Average time: 1.1831935148972732
+
+python main.py --data data/ --bs 10 --ebs 10 --evaluation 64 --scales 10 21 45 99 153 207 261 --amp
+DONE (t=0.02s).
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.122 | catId=All
+ Average Precision  (AP) @[ IoU=0.50      | area=   all | maxDets=100 ] = 0.397 | catId=All
+ Average Precision  (AP) @[ IoU=0.60      | area=   all | maxDets=100 ] = 0.239 | catId=All
+ Average Precision  (AP) @[ IoU=0.70      | area=   all | maxDets=100 ] = 0.063 | catId=All
+ Average Precision  (AP) @[ IoU=0.80      | area=   all | maxDets=100 ] = 0.008 | catId=All
+ Average Precision  (AP) @[ IoU=0.90      | area=   all | maxDets=100 ] = -1.000 | catId=All
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.115 | catId=All
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.320 | catId=All
+ Average Recall     (AR) @[ IoU=0.50      | area=   all | maxDets=100 ] = 0.595 | catId=All
+ Average Recall     (AR) @[ IoU=0.60      | area=   all | maxDets=100 ] = 0.449 | catId=All
+ Average Recall     (AR) @[ IoU=0.70      | area=   all | maxDets=100 ] = 0.173 | catId=All
+ Average Recall     (AR) @[ IoU=0.80      | area=   all | maxDets=100 ] = 0.030 | catId=All
+ Average Recall     (AR) @[ IoU=0.90      | area=   all | maxDets=100 ] = -1.000 | catId=All
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.210 | catId=All
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.466 | catId=All
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.030 | catId=ball
+ Average Precision  (AP) @[ IoU=0.50      | area=   all | maxDets=100 ] = 0.126 | catId=ball
+ Average Precision  (AP) @[ IoU=0.60      | area=   all | maxDets=100 ] = 0.041 | catId=ball
+ Average Precision  (AP) @[ IoU=0.70      | area=   all | maxDets=100 ] = 0.000 | catId=ball
+ Average Precision  (AP) @[ IoU=0.80      | area=   all | maxDets=100 ] = 0.000 | catId=ball
+ Average Precision  (AP) @[ IoU=0.90      | area=   all | maxDets=100 ] = -1.000 | catId=ball
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.034 | catId=ball
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = -1.000 | catId=ball
+ Average Recall     (AR) @[ IoU=0.50      | area=   all | maxDets=100 ] = 0.200 | catId=ball
+ Average Recall     (AR) @[ IoU=0.60      | area=   all | maxDets=100 ] = 0.150 | catId=ball
+ Average Recall     (AR) @[ IoU=0.70      | area=   all | maxDets=100 ] = 0.000 | catId=ball
+ Average Recall     (AR) @[ IoU=0.80      | area=   all | maxDets=100 ] = 0.000 | catId=ball
+ Average Recall     (AR) @[ IoU=0.90      | area=   all | maxDets=100 ] = -1.000 | catId=ball
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.065 | catId=ball
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = -1.000 | catId=ball
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.197 | catId=hand
+ Average Precision  (AP) @[ IoU=0.50      | area=   all | maxDets=100 ] = 0.597 | catId=hand
+ Average Precision  (AP) @[ IoU=0.60      | area=   all | maxDets=100 ] = 0.412 | catId=hand
+ Average Precision  (AP) @[ IoU=0.70      | area=   all | maxDets=100 ] = 0.094 | catId=hand
+ Average Precision  (AP) @[ IoU=0.80      | area=   all | maxDets=100 ] = 0.011 | catId=hand
+ Average Precision  (AP) @[ IoU=0.90      | area=   all | maxDets=100 ] = -1.000 | catId=hand
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.188 | catId=hand
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.337 | catId=hand
+ Average Recall     (AR) @[ IoU=0.50      | area=   all | maxDets=100 ] = 0.875 | catId=hand
+ Average Recall     (AR) @[ IoU=0.60      | area=   all | maxDets=100 ] = 0.693 | catId=hand
+ Average Recall     (AR) @[ IoU=0.70      | area=   all | maxDets=100 ] = 0.261 | catId=hand
+ Average Recall     (AR) @[ IoU=0.80      | area=   all | maxDets=100 ] = 0.045 | catId=hand
+ Average Recall     (AR) @[ IoU=0.90      | area=   all | maxDets=100 ] = -1.000 | catId=hand
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.323 | catId=hand
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.450 | catId=hand
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.138 | catId=figure
+ Average Precision  (AP) @[ IoU=0.50      | area=   all | maxDets=100 ] = 0.467 | catId=figure
+ Average Precision  (AP) @[ IoU=0.60      | area=   all | maxDets=100 ] = 0.264 | catId=figure
+ Average Precision  (AP) @[ IoU=0.70      | area=   all | maxDets=100 ] = 0.094 | catId=figure
+ Average Precision  (AP) @[ IoU=0.80      | area=   all | maxDets=100 ] = 0.012 | catId=figure
+ Average Precision  (AP) @[ IoU=0.90      | area=   all | maxDets=100 ] = -1.000 | catId=figure
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.123 | catId=figure
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.303 | catId=figure
+ Average Recall     (AR) @[ IoU=0.50      | area=   all | maxDets=100 ] = 0.711 | catId=figure
+ Average Recall     (AR) @[ IoU=0.60      | area=   all | maxDets=100 ] = 0.503 | catId=figure
+ Average Recall     (AR) @[ IoU=0.70      | area=   all | maxDets=100 ] = 0.256 | catId=figure
+ Average Recall     (AR) @[ IoU=0.80      | area=   all | maxDets=100 ] = 0.044 | catId=figure
+ Average Recall     (AR) @[ IoU=0.90      | area=   all | maxDets=100 ] = -1.000 | catId=figure
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.241 | catId=figure
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.483 | catId=figure
+Current AP: 0.12170
+Evaluation loss: 4.8657558759053545
+DLL 2022-09-07 08:37:48.224861 - (64,) mAP : 0.1216987727309888 None
+
+DLL 2022-09-07 08:37:48.224948 - () total time : 77.55317282676697
+Average time: 1.193125735796415
+
+python main.py --data data/ --bs 10 --ebs 10 --evaluation 64 --scales 10 21 45 99 153 207 261 --aspect-ratio-0 2 3 4 --amp
+DONE (t=0.02s).
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.111 | catId=All
+ Average Precision  (AP) @[ IoU=0.50      | area=   all | maxDets=100 ] = 0.342 | catId=All
+ Average Precision  (AP) @[ IoU=0.60      | area=   all | maxDets=100 ] = 0.218 | catId=All
+ Average Precision  (AP) @[ IoU=0.70      | area=   all | maxDets=100 ] = 0.070 | catId=All
+ Average Precision  (AP) @[ IoU=0.80      | area=   all | maxDets=100 ] = 0.014 | catId=All
+ Average Precision  (AP) @[ IoU=0.90      | area=   all | maxDets=100 ] = -1.000 | catId=All
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.105 | catId=All
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.289 | catId=All
+ Average Recall     (AR) @[ IoU=0.50      | area=   all | maxDets=100 ] = 0.592 | catId=All
+ Average Recall     (AR) @[ IoU=0.60      | area=   all | maxDets=100 ] = 0.402 | catId=All
+ Average Recall     (AR) @[ IoU=0.70      | area=   all | maxDets=100 ] = 0.172 | catId=All
+ Average Recall     (AR) @[ IoU=0.80      | area=   all | maxDets=100 ] = 0.070 | catId=All
+ Average Recall     (AR) @[ IoU=0.90      | area=   all | maxDets=100 ] = -1.000 | catId=All
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.210 | catId=All
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.449 | catId=All
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.025 | catId=ball
+ Average Precision  (AP) @[ IoU=0.50      | area=   all | maxDets=100 ] = 0.067 | catId=ball
+ Average Precision  (AP) @[ IoU=0.60      | area=   all | maxDets=100 ] = 0.061 | catId=ball
+ Average Precision  (AP) @[ IoU=0.70      | area=   all | maxDets=100 ] = 0.000 | catId=ball
+ Average Precision  (AP) @[ IoU=0.80      | area=   all | maxDets=100 ] = 0.000 | catId=ball
+ Average Precision  (AP) @[ IoU=0.90      | area=   all | maxDets=100 ] = -1.000 | catId=ball
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.026 | catId=ball
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = -1.000 | catId=ball
+ Average Recall     (AR) @[ IoU=0.50      | area=   all | maxDets=100 ] = 0.250 | catId=ball
+ Average Recall     (AR) @[ IoU=0.60      | area=   all | maxDets=100 ] = 0.100 | catId=ball
+ Average Recall     (AR) @[ IoU=0.70      | area=   all | maxDets=100 ] = 0.000 | catId=ball
+ Average Recall     (AR) @[ IoU=0.80      | area=   all | maxDets=100 ] = 0.000 | catId=ball
+ Average Recall     (AR) @[ IoU=0.90      | area=   all | maxDets=100 ] = -1.000 | catId=ball
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.055 | catId=ball
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = -1.000 | catId=ball
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.164 | catId=hand
+ Average Precision  (AP) @[ IoU=0.50      | area=   all | maxDets=100 ] = 0.508 | catId=hand
+ Average Precision  (AP) @[ IoU=0.60      | area=   all | maxDets=100 ] = 0.335 | catId=hand
+ Average Precision  (AP) @[ IoU=0.70      | area=   all | maxDets=100 ] = 0.092 | catId=hand
+ Average Precision  (AP) @[ IoU=0.80      | area=   all | maxDets=100 ] = 0.022 | catId=hand
+ Average Precision  (AP) @[ IoU=0.90      | area=   all | maxDets=100 ] = -1.000 | catId=hand
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.163 | catId=hand
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.254 | catId=hand
+ Average Recall     (AR) @[ IoU=0.50      | area=   all | maxDets=100 ] = 0.852 | catId=hand
+ Average Recall     (AR) @[ IoU=0.60      | area=   all | maxDets=100 ] = 0.636 | catId=hand
+ Average Recall     (AR) @[ IoU=0.70      | area=   all | maxDets=100 ] = 0.273 | catId=hand
+ Average Recall     (AR) @[ IoU=0.80      | area=   all | maxDets=100 ] = 0.125 | catId=hand
+ Average Recall     (AR) @[ IoU=0.90      | area=   all | maxDets=100 ] = -1.000 | catId=hand
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.332 | catId=hand
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.450 | catId=hand
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.145 | catId=figure
+ Average Precision  (AP) @[ IoU=0.50      | area=   all | maxDets=100 ] = 0.450 | catId=figure
+ Average Precision  (AP) @[ IoU=0.60      | area=   all | maxDets=100 ] = 0.259 | catId=figure
+ Average Precision  (AP) @[ IoU=0.70      | area=   all | maxDets=100 ] = 0.118 | catId=figure
+ Average Precision  (AP) @[ IoU=0.80      | area=   all | maxDets=100 ] = 0.020 | catId=figure
+ Average Precision  (AP) @[ IoU=0.90      | area=   all | maxDets=100 ] = -1.000 | catId=figure
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.127 | catId=figure
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.325 | catId=figure
+ Average Recall     (AR) @[ IoU=0.50      | area=   all | maxDets=100 ] = 0.674 | catId=figure
+ Average Recall     (AR) @[ IoU=0.60      | area=   all | maxDets=100 ] = 0.471 | catId=figure
+ Average Recall     (AR) @[ IoU=0.70      | area=   all | maxDets=100 ] = 0.242 | catId=figure
+ Average Recall     (AR) @[ IoU=0.80      | area=   all | maxDets=100 ] = 0.085 | catId=figure
+ Average Recall     (AR) @[ IoU=0.90      | area=   all | maxDets=100 ] = -1.000 | catId=figure
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.244 | catId=figure
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.449 | catId=figure
+Current AP: 0.11139
+Evaluation loss: 4.730020999908447
+
+python main.py --data data/ --bs 10 --ebs 10 --evaluation 64 --scales 10 21 45 99 153 207 261 --aspect-ratio-0 2 3 --amp
+DONE (t=0.03s).
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.124 | catId=All
+ Average Precision  (AP) @[ IoU=0.50      | area=   all | maxDets=100 ] = 0.384 | catId=All
+ Average Precision  (AP) @[ IoU=0.60      | area=   all | maxDets=100 ] = 0.257 | catId=All
+ Average Precision  (AP) @[ IoU=0.70      | area=   all | maxDets=100 ] = 0.079 | catId=All
+ Average Precision  (AP) @[ IoU=0.80      | area=   all | maxDets=100 ] = 0.012 | catId=All
+ Average Precision  (AP) @[ IoU=0.90      | area=   all | maxDets=100 ] = -1.000 | catId=All
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.117 | catId=All
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.348 | catId=All
+ Average Recall     (AR) @[ IoU=0.50      | area=   all | maxDets=100 ] = 0.602 | catId=All
+ Average Recall     (AR) @[ IoU=0.60      | area=   all | maxDets=100 ] = 0.445 | catId=All
+ Average Recall     (AR) @[ IoU=0.70      | area=   all | maxDets=100 ] = 0.189 | catId=All
+ Average Recall     (AR) @[ IoU=0.80      | area=   all | maxDets=100 ] = 0.052 | catId=All
+ Average Recall     (AR) @[ IoU=0.90      | area=   all | maxDets=100 ] = -1.000 | catId=All
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.218 | catId=All
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.482 | catId=All
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.041 | catId=ball
+ Average Precision  (AP) @[ IoU=0.50      | area=   all | maxDets=100 ] = 0.116 | catId=ball
+ Average Precision  (AP) @[ IoU=0.60      | area=   all | maxDets=100 ] = 0.115 | catId=ball
+ Average Precision  (AP) @[ IoU=0.70      | area=   all | maxDets=100 ] = 0.030 | catId=ball
+ Average Precision  (AP) @[ IoU=0.80      | area=   all | maxDets=100 ] = 0.000 | catId=ball
+ Average Precision  (AP) @[ IoU=0.90      | area=   all | maxDets=100 ] = -1.000 | catId=ball
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.044 | catId=ball
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = -1.000 | catId=ball
+ Average Recall     (AR) @[ IoU=0.50      | area=   all | maxDets=100 ] = 0.200 | catId=ball
+ Average Recall     (AR) @[ IoU=0.60      | area=   all | maxDets=100 ] = 0.150 | catId=ball
+ Average Recall     (AR) @[ IoU=0.70      | area=   all | maxDets=100 ] = 0.050 | catId=ball
+ Average Recall     (AR) @[ IoU=0.80      | area=   all | maxDets=100 ] = 0.000 | catId=ball
+ Average Recall     (AR) @[ IoU=0.90      | area=   all | maxDets=100 ] = -1.000 | catId=ball
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.070 | catId=ball
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = -1.000 | catId=ball
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.194 | catId=hand
+ Average Precision  (AP) @[ IoU=0.50      | area=   all | maxDets=100 ] = 0.587 | catId=hand
+ Average Precision  (AP) @[ IoU=0.60      | area=   all | maxDets=100 ] = 0.416 | catId=hand
+ Average Precision  (AP) @[ IoU=0.70      | area=   all | maxDets=100 ] = 0.116 | catId=hand
+ Average Precision  (AP) @[ IoU=0.80      | area=   all | maxDets=100 ] = 0.015 | catId=hand
+ Average Precision  (AP) @[ IoU=0.90      | area=   all | maxDets=100 ] = -1.000 | catId=hand
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.187 | catId=hand
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.372 | catId=hand
+ Average Recall     (AR) @[ IoU=0.50      | area=   all | maxDets=100 ] = 0.898 | catId=hand
+ Average Recall     (AR) @[ IoU=0.60      | area=   all | maxDets=100 ] = 0.693 | catId=hand
+ Average Recall     (AR) @[ IoU=0.70      | area=   all | maxDets=100 ] = 0.284 | catId=hand
+ Average Recall     (AR) @[ IoU=0.80      | area=   all | maxDets=100 ] = 0.080 | catId=hand
+ Average Recall     (AR) @[ IoU=0.90      | area=   all | maxDets=100 ] = -1.000 | catId=hand
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.337 | catId=hand
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.483 | catId=hand
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.138 | catId=figure
+ Average Precision  (AP) @[ IoU=0.50      | area=   all | maxDets=100 ] = 0.448 | catId=figure
+ Average Precision  (AP) @[ IoU=0.60      | area=   all | maxDets=100 ] = 0.242 | catId=figure
+ Average Precision  (AP) @[ IoU=0.70      | area=   all | maxDets=100 ] = 0.091 | catId=figure
+ Average Precision  (AP) @[ IoU=0.80      | area=   all | maxDets=100 ] = 0.023 | catId=figure
+ Average Precision  (AP) @[ IoU=0.90      | area=   all | maxDets=100 ] = -1.000 | catId=figure
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.120 | catId=figure
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.323 | catId=figure
+ Average Recall     (AR) @[ IoU=0.50      | area=   all | maxDets=100 ] = 0.709 | catId=figure
+ Average Recall     (AR) @[ IoU=0.60      | area=   all | maxDets=100 ] = 0.492 | catId=figure
+ Average Recall     (AR) @[ IoU=0.70      | area=   all | maxDets=100 ] = 0.233 | catId=figure
+ Average Recall     (AR) @[ IoU=0.80      | area=   all | maxDets=100 ] = 0.076 | catId=figure
+ Average Recall     (AR) @[ IoU=0.90      | area=   all | maxDets=100 ] = -1.000 | catId=figure
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.246 | catId=figure
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.480 | catId=figure
+Current AP: 0.12441
+Evaluation loss: 4.701006571451823
+DLL 2022-09-07 09:07:38.109551 - (64,) mAP : 0.1244078836236691 None
+
+python main.py --data data/ --bs 6 --ebs 6 --evaluation 64 --larger-features
+DONE (t=0.02s).
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.268 | catId=All
+ Average Precision  (AP) @[ IoU=0.50      | area=   all | maxDets=100 ] = 0.601 | catId=All
+ Average Precision  (AP) @[ IoU=0.60      | area=   all | maxDets=100 ] = 0.495 | catId=All
+ Average Precision  (AP) @[ IoU=0.70      | area=   all | maxDets=100 ] = 0.291 | catId=All
+ Average Precision  (AP) @[ IoU=0.80      | area=   all | maxDets=100 ] = 0.081 | catId=All
+ Average Precision  (AP) @[ IoU=0.90      | area=   all | maxDets=100 ] = -1.000 | catId=All
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.266 | catId=All
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.449 | catId=All
+ Average Recall     (AR) @[ IoU=0.50      | area=   all | maxDets=100 ] = 0.681 | catId=All
+ Average Recall     (AR) @[ IoU=0.60      | area=   all | maxDets=100 ] = 0.572 | catId=All
+ Average Recall     (AR) @[ IoU=0.70      | area=   all | maxDets=100 ] = 0.390 | catId=All
+ Average Recall     (AR) @[ IoU=0.80      | area=   all | maxDets=100 ] = 0.159 | catId=All
+ Average Recall     (AR) @[ IoU=0.90      | area=   all | maxDets=100 ] = -1.000 | catId=All
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.324 | catId=All
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.523 | catId=All
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.168 | catId=ball
+ Average Precision  (AP) @[ IoU=0.50      | area=   all | maxDets=100 ] = 0.309 | catId=ball
+ Average Precision  (AP) @[ IoU=0.60      | area=   all | maxDets=100 ] = 0.307 | catId=ball
+ Average Precision  (AP) @[ IoU=0.70      | area=   all | maxDets=100 ] = 0.198 | catId=ball
+ Average Precision  (AP) @[ IoU=0.80      | area=   all | maxDets=100 ] = 0.092 | catId=ball
+ Average Precision  (AP) @[ IoU=0.90      | area=   all | maxDets=100 ] = -1.000 | catId=ball
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.170 | catId=ball
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = -1.000 | catId=ball
+ Average Recall     (AR) @[ IoU=0.50      | area=   all | maxDets=100 ] = 0.350 | catId=ball
+ Average Recall     (AR) @[ IoU=0.60      | area=   all | maxDets=100 ] = 0.300 | catId=ball
+ Average Recall     (AR) @[ IoU=0.70      | area=   all | maxDets=100 ] = 0.200 | catId=ball
+ Average Recall     (AR) @[ IoU=0.80      | area=   all | maxDets=100 ] = 0.100 | catId=ball
+ Average Recall     (AR) @[ IoU=0.90      | area=   all | maxDets=100 ] = -1.000 | catId=ball
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.175 | catId=ball
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = -1.000 | catId=ball
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.348 | catId=hand
+ Average Precision  (AP) @[ IoU=0.50      | area=   all | maxDets=100 ] = 0.827 | catId=hand
+ Average Precision  (AP) @[ IoU=0.60      | area=   all | maxDets=100 ] = 0.670 | catId=hand
+ Average Precision  (AP) @[ IoU=0.70      | area=   all | maxDets=100 ] = 0.327 | catId=hand
+ Average Precision  (AP) @[ IoU=0.80      | area=   all | maxDets=100 ] = 0.075 | catId=hand
+ Average Precision  (AP) @[ IoU=0.90      | area=   all | maxDets=100 ] = -1.000 | catId=hand
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.349 | catId=hand
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.391 | catId=hand
+ Average Recall     (AR) @[ IoU=0.50      | area=   all | maxDets=100 ] = 0.875 | catId=hand
+ Average Recall     (AR) @[ IoU=0.60      | area=   all | maxDets=100 ] = 0.750 | catId=hand
+ Average Recall     (AR) @[ IoU=0.70      | area=   all | maxDets=100 ] = 0.477 | catId=hand
+ Average Recall     (AR) @[ IoU=0.80      | area=   all | maxDets=100 ] = 0.193 | catId=hand
+ Average Recall     (AR) @[ IoU=0.90      | area=   all | maxDets=100 ] = -1.000 | catId=hand
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.420 | catId=hand
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.483 | catId=hand
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.288 | catId=figure
+ Average Precision  (AP) @[ IoU=0.50      | area=   all | maxDets=100 ] = 0.666 | catId=figure
+ Average Precision  (AP) @[ IoU=0.60      | area=   all | maxDets=100 ] = 0.507 | catId=figure
+ Average Precision  (AP) @[ IoU=0.70      | area=   all | maxDets=100 ] = 0.349 | catId=figure
+ Average Precision  (AP) @[ IoU=0.80      | area=   all | maxDets=100 ] = 0.075 | catId=figure
+ Average Precision  (AP) @[ IoU=0.90      | area=   all | maxDets=100 ] = -1.000 | catId=figure
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.280 | catId=figure
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.507 | catId=figure
+ Average Recall     (AR) @[ IoU=0.50      | area=   all | maxDets=100 ] = 0.818 | catId=figure
+ Average Recall     (AR) @[ IoU=0.60      | area=   all | maxDets=100 ] = 0.667 | catId=figure
+ Average Recall     (AR) @[ IoU=0.70      | area=   all | maxDets=100 ] = 0.492 | catId=figure
+ Average Recall     (AR) @[ IoU=0.80      | area=   all | maxDets=100 ] = 0.185 | catId=figure
+ Average Recall     (AR) @[ IoU=0.90      | area=   all | maxDets=100 ] = -1.000 | catId=figure
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.377 | catId=figure
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.563 | catId=figure
+Current AP: 0.26814
+Evaluation loss: 3.786096215248108
+DLL 2022-09-09 14:39:37.935915 - (64,) mAP : 0.2681405834416268 None
+
+DLL 2022-09-09 14:39:37.935988 - () total time : 350.0904426574707
+Average time: 5.386006810114934
+
+DLL 2022-09-07 09:07:38.109621 - () total time : 80.77678370475769
+Average time: 1.2427197493039646
+python main.py --data data/ --bs 10 --ebs 10 --evaluation 64 --larger-features --amp
+DONE (t=0.02s).
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.253 | catId=All
+ Average Precision  (AP) @[ IoU=0.50      | area=   all | maxDets=100 ] = 0.570 | catId=All
+ Average Precision  (AP) @[ IoU=0.60      | area=   all | maxDets=100 ] = 0.481 | catId=All
+ Average Precision  (AP) @[ IoU=0.70      | area=   all | maxDets=100 ] = 0.305 | catId=All
+ Average Precision  (AP) @[ IoU=0.80      | area=   all | maxDets=100 ] = 0.067 | catId=All
+ Average Precision  (AP) @[ IoU=0.90      | area=   all | maxDets=100 ] = -1.000 | catId=All
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.254 | catId=All
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.446 | catId=All
+ Average Recall     (AR) @[ IoU=0.50      | area=   all | maxDets=100 ] = 0.648 | catId=All
+ Average Recall     (AR) @[ IoU=0.60      | area=   all | maxDets=100 ] = 0.569 | catId=All
+ Average Recall     (AR) @[ IoU=0.70      | area=   all | maxDets=100 ] = 0.411 | catId=All
+ Average Recall     (AR) @[ IoU=0.80      | area=   all | maxDets=100 ] = 0.161 | catId=All
+ Average Recall     (AR) @[ IoU=0.90      | area=   all | maxDets=100 ] = -1.000 | catId=All
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.313 | catId=All
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.589 | catId=All
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.149 | catId=ball
+ Average Precision  (AP) @[ IoU=0.50      | area=   all | maxDets=100 ] = 0.269 | catId=ball
+ Average Precision  (AP) @[ IoU=0.60      | area=   all | maxDets=100 ] = 0.269 | catId=ball
+ Average Precision  (AP) @[ IoU=0.70      | area=   all | maxDets=100 ] = 0.269 | catId=ball
+ Average Precision  (AP) @[ IoU=0.80      | area=   all | maxDets=100 ] = 0.030 | catId=ball
+ Average Precision  (AP) @[ IoU=0.90      | area=   all | maxDets=100 ] = -1.000 | catId=ball
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.157 | catId=ball
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = -1.000 | catId=ball
+ Average Recall     (AR) @[ IoU=0.50      | area=   all | maxDets=100 ] = 0.300 | catId=ball
+ Average Recall     (AR) @[ IoU=0.60      | area=   all | maxDets=100 ] = 0.300 | catId=ball
+ Average Recall     (AR) @[ IoU=0.70      | area=   all | maxDets=100 ] = 0.300 | catId=ball
+ Average Recall     (AR) @[ IoU=0.80      | area=   all | maxDets=100 ] = 0.050 | catId=ball
+ Average Recall     (AR) @[ IoU=0.90      | area=   all | maxDets=100 ] = -1.000 | catId=ball
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.170 | catId=ball
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = -1.000 | catId=ball
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.335 | catId=hand
+ Average Precision  (AP) @[ IoU=0.50      | area=   all | maxDets=100 ] = 0.785 | catId=hand
+ Average Precision  (AP) @[ IoU=0.60      | area=   all | maxDets=100 ] = 0.652 | catId=hand
+ Average Precision  (AP) @[ IoU=0.70      | area=   all | maxDets=100 ] = 0.358 | catId=hand
+ Average Precision  (AP) @[ IoU=0.80      | area=   all | maxDets=100 ] = 0.099 | catId=hand
+ Average Precision  (AP) @[ IoU=0.90      | area=   all | maxDets=100 ] = -1.000 | catId=hand
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.331 | catId=hand
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.394 | catId=hand
+ Average Recall     (AR) @[ IoU=0.50      | area=   all | maxDets=100 ] = 0.841 | catId=hand
+ Average Recall     (AR) @[ IoU=0.60      | area=   all | maxDets=100 ] = 0.739 | catId=hand
+ Average Recall     (AR) @[ IoU=0.70      | area=   all | maxDets=100 ] = 0.489 | catId=hand
+ Average Recall     (AR) @[ IoU=0.80      | area=   all | maxDets=100 ] = 0.239 | catId=hand
+ Average Recall     (AR) @[ IoU=0.90      | area=   all | maxDets=100 ] = -1.000 | catId=hand
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.402 | catId=hand
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.617 | catId=hand
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.276 | catId=figure
+ Average Precision  (AP) @[ IoU=0.50      | area=   all | maxDets=100 ] = 0.657 | catId=figure
+ Average Precision  (AP) @[ IoU=0.60      | area=   all | maxDets=100 ] = 0.522 | catId=figure
+ Average Precision  (AP) @[ IoU=0.70      | area=   all | maxDets=100 ] = 0.289 | catId=figure
+ Average Precision  (AP) @[ IoU=0.80      | area=   all | maxDets=100 ] = 0.074 | catId=figure
+ Average Precision  (AP) @[ IoU=0.90      | area=   all | maxDets=100 ] = -1.000 | catId=figure
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.273 | catId=figure
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.499 | catId=figure
+ Average Recall     (AR) @[ IoU=0.50      | area=   all | maxDets=100 ] = 0.804 | catId=figure
+ Average Recall     (AR) @[ IoU=0.60      | area=   all | maxDets=100 ] = 0.667 | catId=figure
+ Average Recall     (AR) @[ IoU=0.70      | area=   all | maxDets=100 ] = 0.446 | catId=figure
+ Average Recall     (AR) @[ IoU=0.80      | area=   all | maxDets=100 ] = 0.194 | catId=figure
+ Average Recall     (AR) @[ IoU=0.90      | area=   all | maxDets=100 ] = -1.000 | catId=figure
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.367 | catId=figure
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.561 | catId=figure
+Current AP: 0.25343
+Evaluation loss: 3.8360346953074136
+
+python main.py --data data/ --bs 10 --ebs 10 --evaluation 64 --scales 10 21 45 99 153 207 261 --larger-features --amp
+Accumulating evaluation results...
+DONE (t=0.02s).
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.235 | catId=All
+ Average Precision  (AP) @[ IoU=0.50      | area=   all | maxDets=100 ] = 0.575 | catId=All
+ Average Precision  (AP) @[ IoU=0.60      | area=   all | maxDets=100 ] = 0.460 | catId=All
+ Average Precision  (AP) @[ IoU=0.70      | area=   all | maxDets=100 ] = 0.242 | catId=All
+ Average Precision  (AP) @[ IoU=0.80      | area=   all | maxDets=100 ] = 0.047 | catId=All
+ Average Precision  (AP) @[ IoU=0.90      | area=   all | maxDets=100 ] = -1.000 | catId=All
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.232 | catId=All
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.404 | catId=All
+ Average Recall     (AR) @[ IoU=0.50      | area=   all | maxDets=100 ] = 0.696 | catId=All
+ Average Recall     (AR) @[ IoU=0.60      | area=   all | maxDets=100 ] = 0.600 | catId=All
+ Average Recall     (AR) @[ IoU=0.70      | area=   all | maxDets=100 ] = 0.396 | catId=All
+ Average Recall     (AR) @[ IoU=0.80      | area=   all | maxDets=100 ] = 0.131 | catId=All
+ Average Recall     (AR) @[ IoU=0.90      | area=   all | maxDets=100 ] = -1.000 | catId=All
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.319 | catId=All
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.510 | catId=All
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.099 | catId=ball
+ Average Precision  (AP) @[ IoU=0.50      | area=   all | maxDets=100 ] = 0.208 | catId=ball
+ Average Precision  (AP) @[ IoU=0.60      | area=   all | maxDets=100 ] = 0.177 | catId=ball
+ Average Precision  (AP) @[ IoU=0.70      | area=   all | maxDets=100 ] = 0.147 | catId=ball
+ Average Precision  (AP) @[ IoU=0.80      | area=   all | maxDets=100 ] = 0.018 | catId=ball
+ Average Precision  (AP) @[ IoU=0.90      | area=   all | maxDets=100 ] = -1.000 | catId=ball
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.103 | catId=ball
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = -1.000 | catId=ball
+ Average Recall     (AR) @[ IoU=0.50      | area=   all | maxDets=100 ] = 0.300 | catId=ball
+ Average Recall     (AR) @[ IoU=0.60      | area=   all | maxDets=100 ] = 0.300 | catId=ball
+ Average Recall     (AR) @[ IoU=0.70      | area=   all | maxDets=100 ] = 0.250 | catId=ball
+ Average Recall     (AR) @[ IoU=0.80      | area=   all | maxDets=100 ] = 0.100 | catId=ball
+ Average Recall     (AR) @[ IoU=0.90      | area=   all | maxDets=100 ] = -1.000 | catId=ball
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.170 | catId=ball
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = -1.000 | catId=ball
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.264 | catId=hand
+ Average Precision  (AP) @[ IoU=0.50      | area=   all | maxDets=100 ] = 0.709 | catId=hand
+ Average Precision  (AP) @[ IoU=0.60      | area=   all | maxDets=100 ] = 0.541 | catId=hand
+ Average Precision  (AP) @[ IoU=0.70      | area=   all | maxDets=100 ] = 0.221 | catId=hand
+ Average Precision  (AP) @[ IoU=0.80      | area=   all | maxDets=100 ] = 0.025 | catId=hand
+ Average Precision  (AP) @[ IoU=0.90      | area=   all | maxDets=100 ] = -1.000 | catId=hand
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.260 | catId=hand
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.330 | catId=hand
+ Average Recall     (AR) @[ IoU=0.50      | area=   all | maxDets=100 ] = 0.886 | catId=hand
+ Average Recall     (AR) @[ IoU=0.60      | area=   all | maxDets=100 ] = 0.716 | catId=hand
+ Average Recall     (AR) @[ IoU=0.70      | area=   all | maxDets=100 ] = 0.420 | catId=hand
+ Average Recall     (AR) @[ IoU=0.80      | area=   all | maxDets=100 ] = 0.057 | catId=hand
+ Average Recall     (AR) @[ IoU=0.90      | area=   all | maxDets=100 ] = -1.000 | catId=hand
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.356 | catId=hand
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.467 | catId=hand
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.342 | catId=figure
+ Average Precision  (AP) @[ IoU=0.50      | area=   all | maxDets=100 ] = 0.808 | catId=figure
+ Average Precision  (AP) @[ IoU=0.60      | area=   all | maxDets=100 ] = 0.662 | catId=figure
+ Average Precision  (AP) @[ IoU=0.70      | area=   all | maxDets=100 ] = 0.359 | catId=figure
+ Average Precision  (AP) @[ IoU=0.80      | area=   all | maxDets=100 ] = 0.097 | catId=figure
+ Average Precision  (AP) @[ IoU=0.90      | area=   all | maxDets=100 ] = -1.000 | catId=figure
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.331 | catId=figure
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.479 | catId=figure
+ Average Recall     (AR) @[ IoU=0.50      | area=   all | maxDets=100 ] = 0.901 | catId=figure
+ Average Recall     (AR) @[ IoU=0.60      | area=   all | maxDets=100 ] = 0.785 | catId=figure
+ Average Recall     (AR) @[ IoU=0.70      | area=   all | maxDets=100 ] = 0.517 | catId=figure
+ Average Recall     (AR) @[ IoU=0.80      | area=   all | maxDets=100 ] = 0.236 | catId=figure
+ Average Recall     (AR) @[ IoU=0.90      | area=   all | maxDets=100 ] = -1.000 | catId=figure
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.432 | catId=figure
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.554 | catId=figure
+Current AP: 0.23471
+Evaluation loss: 3.530296723047892
+DLL 2022-09-07 08:58:24.232433 - (64,) mAP : 0.23471350130556723 None
+
+DLL 2022-09-07 08:58:24.232513 - () total time : 203.0485873222351
+Average time: 3.1238244203420784
+
+python main.py --data data/ --bs 10 --ebs 10 --evaluation 64 --larger-features --aspect-ratio-0 2 3 --amp
+DONE (t=0.02s).
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.238 | catId=All
+ Average Precision  (AP) @[ IoU=0.50      | area=   all | maxDets=100 ] = 0.555 | catId=All
+ Average Precision  (AP) @[ IoU=0.60      | area=   all | maxDets=100 ] = 0.456 | catId=All
+ Average Precision  (AP) @[ IoU=0.70      | area=   all | maxDets=100 ] = 0.273 | catId=All
+ Average Precision  (AP) @[ IoU=0.80      | area=   all | maxDets=100 ] = 0.047 | catId=All
+ Average Precision  (AP) @[ IoU=0.90      | area=   all | maxDets=100 ] = -1.000 | catId=All
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.245 | catId=All
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.426 | catId=All
+ Average Recall     (AR) @[ IoU=0.50      | area=   all | maxDets=100 ] = 0.641 | catId=All
+ Average Recall     (AR) @[ IoU=0.60      | area=   all | maxDets=100 ] = 0.552 | catId=All
+ Average Recall     (AR) @[ IoU=0.70      | area=   all | maxDets=100 ] = 0.379 | catId=All
+ Average Recall     (AR) @[ IoU=0.80      | area=   all | maxDets=100 ] = 0.124 | catId=All
+ Average Recall     (AR) @[ IoU=0.90      | area=   all | maxDets=100 ] = -1.000 | catId=All
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.301 | catId=All
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.508 | catId=All
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.120 | catId=ball
+ Average Precision  (AP) @[ IoU=0.50      | area=   all | maxDets=100 ] = 0.213 | catId=ball
+ Average Precision  (AP) @[ IoU=0.60      | area=   all | maxDets=100 ] = 0.206 | catId=ball
+ Average Precision  (AP) @[ IoU=0.70      | area=   all | maxDets=100 ] = 0.206 | catId=ball
+ Average Precision  (AP) @[ IoU=0.80      | area=   all | maxDets=100 ] = 0.000 | catId=ball
+ Average Precision  (AP) @[ IoU=0.90      | area=   all | maxDets=100 ] = -1.000 | catId=ball
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.145 | catId=ball
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = -1.000 | catId=ball
+ Average Recall     (AR) @[ IoU=0.50      | area=   all | maxDets=100 ] = 0.300 | catId=ball
+ Average Recall     (AR) @[ IoU=0.60      | area=   all | maxDets=100 ] = 0.300 | catId=ball
+ Average Recall     (AR) @[ IoU=0.70      | area=   all | maxDets=100 ] = 0.300 | catId=ball
+ Average Recall     (AR) @[ IoU=0.80      | area=   all | maxDets=100 ] = 0.000 | catId=ball
+ Average Recall     (AR) @[ IoU=0.90      | area=   all | maxDets=100 ] = -1.000 | catId=ball
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.170 | catId=ball
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = -1.000 | catId=ball
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.330 | catId=hand
+ Average Precision  (AP) @[ IoU=0.50      | area=   all | maxDets=100 ] = 0.827 | catId=hand
+ Average Precision  (AP) @[ IoU=0.60      | area=   all | maxDets=100 ] = 0.658 | catId=hand
+ Average Precision  (AP) @[ IoU=0.70      | area=   all | maxDets=100 ] = 0.327 | catId=hand
+ Average Precision  (AP) @[ IoU=0.80      | area=   all | maxDets=100 ] = 0.067 | catId=hand
+ Average Precision  (AP) @[ IoU=0.90      | area=   all | maxDets=100 ] = -1.000 | catId=hand
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.329 | catId=hand
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.404 | catId=hand
+ Average Recall     (AR) @[ IoU=0.50      | area=   all | maxDets=100 ] = 0.875 | catId=hand
+ Average Recall     (AR) @[ IoU=0.60      | area=   all | maxDets=100 ] = 0.716 | catId=hand
+ Average Recall     (AR) @[ IoU=0.70      | area=   all | maxDets=100 ] = 0.420 | catId=hand
+ Average Recall     (AR) @[ IoU=0.80      | area=   all | maxDets=100 ] = 0.182 | catId=hand
+ Average Recall     (AR) @[ IoU=0.90      | area=   all | maxDets=100 ] = -1.000 | catId=hand
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.387 | catId=hand
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.467 | catId=hand
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.263 | catId=figure
+ Average Precision  (AP) @[ IoU=0.50      | area=   all | maxDets=100 ] = 0.625 | catId=figure
+ Average Precision  (AP) @[ IoU=0.60      | area=   all | maxDets=100 ] = 0.505 | catId=figure
+ Average Precision  (AP) @[ IoU=0.70      | area=   all | maxDets=100 ] = 0.286 | catId=figure
+ Average Precision  (AP) @[ IoU=0.80      | area=   all | maxDets=100 ] = 0.073 | catId=figure
+ Average Precision  (AP) @[ IoU=0.90      | area=   all | maxDets=100 ] = -1.000 | catId=figure
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.260 | catId=figure
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.449 | catId=figure
+ Average Recall     (AR) @[ IoU=0.50      | area=   all | maxDets=100 ] = 0.748 | catId=figure
+ Average Recall     (AR) @[ IoU=0.60      | area=   all | maxDets=100 ] = 0.640 | catId=figure
+ Average Recall     (AR) @[ IoU=0.70      | area=   all | maxDets=100 ] = 0.418 | catId=figure
+ Average Recall     (AR) @[ IoU=0.80      | area=   all | maxDets=100 ] = 0.189 | catId=figure
+ Average Recall     (AR) @[ IoU=0.90      | area=   all | maxDets=100 ] = -1.000 | catId=figure
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.346 | catId=figure
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.549 | catId=figure
+Current AP: 0.23787
+Evaluation loss: 3.8169989585876465
+DLL 2022-09-07 23:58:59.616750 - (64,) mAP : 0.2378667633317537 None
+
+DLL 2022-09-07 23:58:59.616827 - () total time : 210.64615273475647
+Average time: 3.2407100420731765
+
+python main.py --data data/ --bs 10 --ebs 10 --evaluation 64 --scales 10 21 45 99 153 207 261 --larger-features --aspect-ratio-0 2 3 --amp
+DONE (t=0.02s).
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.253 | catId=All
+ Average Precision  (AP) @[ IoU=0.50      | area=   all | maxDets=100 ] = 0.617 | catId=All
+ Average Precision  (AP) @[ IoU=0.60      | area=   all | maxDets=100 ] = 0.478 | catId=All
+ Average Precision  (AP) @[ IoU=0.70      | area=   all | maxDets=100 ] = 0.261 | catId=All
+ Average Precision  (AP) @[ IoU=0.80      | area=   all | maxDets=100 ] = 0.055 | catId=All
+ Average Precision  (AP) @[ IoU=0.90      | area=   all | maxDets=100 ] = -1.000 | catId=All
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.250 | catId=All
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.425 | catId=All
+ Average Recall     (AR) @[ IoU=0.50      | area=   all | maxDets=100 ] = 0.743 | catId=All
+ Average Recall     (AR) @[ IoU=0.60      | area=   all | maxDets=100 ] = 0.630 | catId=All
+ Average Recall     (AR) @[ IoU=0.70      | area=   all | maxDets=100 ] = 0.404 | catId=All
+ Average Recall     (AR) @[ IoU=0.80      | area=   all | maxDets=100 ] = 0.139 | catId=All
+ Average Recall     (AR) @[ IoU=0.90      | area=   all | maxDets=100 ] = -1.000 | catId=All
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.341 | catId=All
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.538 | catId=All
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.106 | catId=ball
+ Average Precision  (AP) @[ IoU=0.50      | area=   all | maxDets=100 ] = 0.243 | catId=ball
+ Average Precision  (AP) @[ IoU=0.60      | area=   all | maxDets=100 ] = 0.179 | catId=ball
+ Average Precision  (AP) @[ IoU=0.70      | area=   all | maxDets=100 ] = 0.151 | catId=ball
+ Average Precision  (AP) @[ IoU=0.80      | area=   all | maxDets=100 ] = 0.012 | catId=ball
+ Average Precision  (AP) @[ IoU=0.90      | area=   all | maxDets=100 ] = -1.000 | catId=ball
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.109 | catId=ball
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = -1.000 | catId=ball
+ Average Recall     (AR) @[ IoU=0.50      | area=   all | maxDets=100 ] = 0.400 | catId=ball
+ Average Recall     (AR) @[ IoU=0.60      | area=   all | maxDets=100 ] = 0.350 | catId=ball
+ Average Recall     (AR) @[ IoU=0.70      | area=   all | maxDets=100 ] = 0.300 | catId=ball
+ Average Recall     (AR) @[ IoU=0.80      | area=   all | maxDets=100 ] = 0.050 | catId=ball
+ Average Recall     (AR) @[ IoU=0.90      | area=   all | maxDets=100 ] = -1.000 | catId=ball
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.195 | catId=ball
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = -1.000 | catId=ball
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.305 | catId=hand
+ Average Precision  (AP) @[ IoU=0.50      | area=   all | maxDets=100 ] = 0.779 | catId=hand
+ Average Precision  (AP) @[ IoU=0.60      | area=   all | maxDets=100 ] = 0.591 | catId=hand
+ Average Precision  (AP) @[ IoU=0.70      | area=   all | maxDets=100 ] = 0.270 | catId=hand
+ Average Precision  (AP) @[ IoU=0.80      | area=   all | maxDets=100 ] = 0.068 | catId=hand
+ Average Precision  (AP) @[ IoU=0.90      | area=   all | maxDets=100 ] = -1.000 | catId=hand
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.301 | catId=hand
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.392 | catId=hand
+ Average Recall     (AR) @[ IoU=0.50      | area=   all | maxDets=100 ] = 0.920 | catId=hand
+ Average Recall     (AR) @[ IoU=0.60      | area=   all | maxDets=100 ] = 0.761 | catId=hand
+ Average Recall     (AR) @[ IoU=0.70      | area=   all | maxDets=100 ] = 0.409 | catId=hand
+ Average Recall     (AR) @[ IoU=0.80      | area=   all | maxDets=100 ] = 0.148 | catId=hand
+ Average Recall     (AR) @[ IoU=0.90      | area=   all | maxDets=100 ] = -1.000 | catId=hand
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.400 | catId=hand
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.517 | catId=hand
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.347 | catId=figure
+ Average Precision  (AP) @[ IoU=0.50      | area=   all | maxDets=100 ] = 0.828 | catId=figure
+ Average Precision  (AP) @[ IoU=0.60      | area=   all | maxDets=100 ] = 0.664 | catId=figure
+ Average Precision  (AP) @[ IoU=0.70      | area=   all | maxDets=100 ] = 0.360 | catId=figure
+ Average Precision  (AP) @[ IoU=0.80      | area=   all | maxDets=100 ] = 0.084 | catId=figure
+ Average Precision  (AP) @[ IoU=0.90      | area=   all | maxDets=100 ] = -1.000 | catId=figure
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.338 | catId=figure
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.458 | catId=figure
+ Average Recall     (AR) @[ IoU=0.50      | area=   all | maxDets=100 ] = 0.908 | catId=figure
+ Average Recall     (AR) @[ IoU=0.60      | area=   all | maxDets=100 ] = 0.778 | catId=figure
+ Average Recall     (AR) @[ IoU=0.70      | area=   all | maxDets=100 ] = 0.503 | catId=figure
+ Average Recall     (AR) @[ IoU=0.80      | area=   all | maxDets=100 ] = 0.219 | catId=figure
+ Average Recall     (AR) @[ IoU=0.90      | area=   all | maxDets=100 ] = -1.000 | catId=figure
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.427 | catId=figure
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.559 | catId=figure
+Current AP: 0.25264
+Evaluation loss: 3.5181190172831216
+DLL 2022-09-07 08:46:42.346692 - (64,) mAP : 0.2526387226811876 None
+
+DLL 2022-09-07 08:46:42.346762 - () total time : 206.50358390808105
+Average time: 3.176978213970478
+
+python main.py --data data/ --bs 10 --ebs 10 --evaluation 64 --scales 10 21 45 99 153 207 261 --larger-features --aspect-ratio-0 2 3 4 --amp
+DONE (t=0.02s).
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.239 | catId=All
+ Average Precision  (AP) @[ IoU=0.50      | area=   all | maxDets=100 ] = 0.603 | catId=All
+ Average Precision  (AP) @[ IoU=0.60      | area=   all | maxDets=100 ] = 0.456 | catId=All
+ Average Precision  (AP) @[ IoU=0.70      | area=   all | maxDets=100 ] = 0.253 | catId=All
+ Average Precision  (AP) @[ IoU=0.80      | area=   all | maxDets=100 ] = 0.049 | catId=All
+ Average Precision  (AP) @[ IoU=0.90      | area=   all | maxDets=100 ] = -1.000 | catId=All
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.233 | catId=All
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.419 | catId=All
+ Average Recall     (AR) @[ IoU=0.50      | area=   all | maxDets=100 ] = 0.728 | catId=All
+ Average Recall     (AR) @[ IoU=0.60      | area=   all | maxDets=100 ] = 0.604 | catId=All
+ Average Recall     (AR) @[ IoU=0.70      | area=   all | maxDets=100 ] = 0.384 | catId=All
+ Average Recall     (AR) @[ IoU=0.80      | area=   all | maxDets=100 ] = 0.134 | catId=All
+ Average Recall     (AR) @[ IoU=0.90      | area=   all | maxDets=100 ] = -1.000 | catId=All
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.327 | catId=All
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.510 | catId=All
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.140 | catId=ball
+ Average Precision  (AP) @[ IoU=0.50      | area=   all | maxDets=100 ] = 0.267 | catId=ball
+ Average Precision  (AP) @[ IoU=0.60      | area=   all | maxDets=100 ] = 0.267 | catId=ball
+ Average Precision  (AP) @[ IoU=0.70      | area=   all | maxDets=100 ] = 0.195 | catId=ball
+ Average Precision  (AP) @[ IoU=0.80      | area=   all | maxDets=100 ] = 0.041 | catId=ball
+ Average Precision  (AP) @[ IoU=0.90      | area=   all | maxDets=100 ] = -1.000 | catId=ball
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.140 | catId=ball
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = -1.000 | catId=ball
+ Average Recall     (AR) @[ IoU=0.50      | area=   all | maxDets=100 ] = 0.400 | catId=ball
+ Average Recall     (AR) @[ IoU=0.60      | area=   all | maxDets=100 ] = 0.400 | catId=ball
+ Average Recall     (AR) @[ IoU=0.70      | area=   all | maxDets=100 ] = 0.300 | catId=ball
+ Average Recall     (AR) @[ IoU=0.80      | area=   all | maxDets=100 ] = 0.100 | catId=ball
+ Average Recall     (AR) @[ IoU=0.90      | area=   all | maxDets=100 ] = -1.000 | catId=ball
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.220 | catId=ball
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = -1.000 | catId=ball
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.252 | catId=hand
+ Average Precision  (AP) @[ IoU=0.50      | area=   all | maxDets=100 ] = 0.739 | catId=hand
+ Average Precision  (AP) @[ IoU=0.60      | area=   all | maxDets=100 ] = 0.498 | catId=hand
+ Average Precision  (AP) @[ IoU=0.70      | area=   all | maxDets=100 ] = 0.226 | catId=hand
+ Average Precision  (AP) @[ IoU=0.80      | area=   all | maxDets=100 ] = 0.032 | catId=hand
+ Average Precision  (AP) @[ IoU=0.90      | area=   all | maxDets=100 ] = -1.000 | catId=hand
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.245 | catId=hand
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.391 | catId=hand
+ Average Recall     (AR) @[ IoU=0.50      | area=   all | maxDets=100 ] = 0.898 | catId=hand
+ Average Recall     (AR) @[ IoU=0.60      | area=   all | maxDets=100 ] = 0.682 | catId=hand
+ Average Recall     (AR) @[ IoU=0.70      | area=   all | maxDets=100 ] = 0.364 | catId=hand
+ Average Recall     (AR) @[ IoU=0.80      | area=   all | maxDets=100 ] = 0.102 | catId=hand
+ Average Recall     (AR) @[ IoU=0.90      | area=   all | maxDets=100 ] = -1.000 | catId=hand
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.350 | catId=hand
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.500 | catId=hand
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.326 | catId=figure
+ Average Precision  (AP) @[ IoU=0.50      | area=   all | maxDets=100 ] = 0.803 | catId=figure
+ Average Precision  (AP) @[ IoU=0.60      | area=   all | maxDets=100 ] = 0.602 | catId=figure
+ Average Precision  (AP) @[ IoU=0.70      | area=   all | maxDets=100 ] = 0.338 | catId=figure
+ Average Precision  (AP) @[ IoU=0.80      | area=   all | maxDets=100 ] = 0.073 | catId=figure
+ Average Precision  (AP) @[ IoU=0.90      | area=   all | maxDets=100 ] = -1.000 | catId=figure
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.315 | catId=figure
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.446 | catId=figure
+ Average Recall     (AR) @[ IoU=0.50      | area=   all | maxDets=100 ] = 0.887 | catId=figure
+ Average Recall     (AR) @[ IoU=0.60      | area=   all | maxDets=100 ] = 0.730 | catId=figure
+ Average Recall     (AR) @[ IoU=0.70      | area=   all | maxDets=100 ] = 0.487 | catId=figure
+ Average Recall     (AR) @[ IoU=0.80      | area=   all | maxDets=100 ] = 0.199 | catId=figure
+ Average Recall     (AR) @[ IoU=0.90      | area=   all | maxDets=100 ] = -1.000 | catId=figure
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.411 | catId=figure
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.520 | catId=figure
+Current AP: 0.23926
+Evaluation loss: 3.6376341183980307
+DLL 2022-09-07 09:12:35.474443 - (64,) mAP : 0.2392644882927863 None
+
+DLL 2022-09-07 09:12:35.474512 - () total time : 206.63072180747986
+Average time: 3.178934181653536
+
+python main.py --data data/ --bs 10 --ebs 10 --mode benchmark-inference --amp --backbone resnet18
+DLL 2022-09-07 22:44:14.121510 - () avg_img/sec : 178.32925170068026 images/s med_img/sec : 531.5009926574926 images/s min_img/sec : 67.30258776863323 images/s max_img/sec : 1601.9799862500954 images/s
+Done benchmarking. Total images: 200    total time: 1.122       Average images/sec: 178.329     Median images/sec: 531.501
+DLL 2022-09-07 22:44:14.140738 - (0,) time : 4.585156440734863
+Evaluation loss: 12.550457954406738
+
+python main.py --data data/ --bs 10 --ebs 10 --mode benchmark-training --amp --backbone resnet18
+DLL 2022-09-07 22:46:01.515742 - () avg_img/sec : 224.75483859040597 images/s med_img/sec : 217.92476553581946 images/s min_img/sec : 187.78307567637748 images/s max_img/sec : 298.27434414979484 images/s
+Done benchmarking. Total images: 200    total time: 0.890       Average images/sec: 224.755     Median images/sec: 217.925
+Training performance = 217.9247589111328 FP
+
+python main.py --data data/ --bs 10 --ebs 10 --mode benchmark-inference --amp
+DLL 2022-09-07 07:33:20.575026 - () avg_img/sec : 151.24730315025226 images/s med_img/sec : 312.9913242139613 images/s min_img/sec : 63.63075597386383 images/s max_img/sec : 958.369473323432 images/s
+Done benchmarking. Total images: 200    total time: 1.322       Average images/sec: 151.247     Median images/sec: 312.991
+
+python main.py --data data/ --bs 10 --ebs 10 --mode benchmark-training --amp
+DLL 2022-09-07 07:34:45.079413 - () avg_img/sec : 87.02203205369663 images/s med_img/sec : 86.27972217017674 images/s min_img/sec : 80.74120987535493 images/s max_img/sec : 101.30459460569188 images/s
+Done benchmarking. Total images: 200    total time: 2.298       Average images/sec: 87.022      Median images/sec: 86.280
+Training performance = 86.27972412109375 FPS
+
+python main.py --data data/ --bs 10 --ebs 10 --mode benchmark-inference
+Done benchmarking. Total images: 200    total time: 1.524       Average images/sec: 131.205     Median images/sec: 199.986
+DLL 2022-09-07 07:39:59.788515 - (0,) time : 5.982158422470093
+
+python main.py --data data/ --bs 10 --ebs 10 --mode benchmark-training
+DLL 2022-09-07 07:41:15.145847 - () avg_img/sec : 64.18620915245224 images/s med_img/sec : 64.22666803328616 images/s min_img/sec : 62.83441470404499 images/s max_img/sec : 65.50723822821543 images/s
+Done benchmarking. Total images: 200    total time: 3.116       Average images/sec: 64.186      Median images/sec: 64.227
+Training performance = 64.22666931152344 FPS
+
+python main.py --data data/ --bs 10 --ebs 10 --mode benchmark-inference --larger-features --amp
+DLL 2022-09-07 22:47:06.930969 - () avg_img/sec : 95.44957668085979 images/s med_img/sec : 111.18749034351913 images/s min_img/sec : 47.66194968017445 images/s max_img/sec : 677.4731469367317 images/s
+Done benchmarking. Total images: 200    total time: 2.095       Average images/sec: 95.450      Median images/sec: 111.187
+DLL 2022-09-07 22:47:06.949522 - (0,) time : 7.323804140090942
+Evaluation loss: 10.139132181803385
+
+python main.py --data data/ --bs 10 --ebs 10 --mode benchmark-training --larger-features --amp
+DLL 2022-09-07 22:48:06.220739 - () avg_img/sec : 36.1033144468898 images/s med_img/sec : 36.059793164302846 images/s min_img/sec : 34.580647288946786 images/s max_img/sec : 37.714219945905505 images/s
+Done benchmarking. Total images: 200    total time: 5.540       Average images/sec: 36.103      Median images/sec: 36.060
+Training performance = 36.059791564941406 FPS
+DLL 2022-09-07 22:48:06.221376 - (0,) time : 15.355404376983643
+
+python main.py --data data/ --bs 10 --ebs 10 --mode benchmark-inference --scales 10 21 45 99 153 207 261 --amp
+Done benchmarking. Total images: 200    total time: 1.537       Average images/sec: 130.161     Median images/sec: 276.385
+DLL 2022-09-07 09:25:51.724783 - (0,) time : 6.140649795532227
+Evaluation loss: 11.771879514058432
+
+python main.py --data data/ --bs 10 --ebs 10 --mode benchmark-training --scales 10 21 45 99 153 207 261 --amp
+DLL 2022-09-07 09:26:21.922588 - () avg_img/sec : 92.66844456110013 images/s med_img/sec : 88.47037331823067 images/s min_img/sec : 84.38666167706837 images/s max_img/sec : 110.57020989418297 images/s
+Done benchmarking. Total images: 200    total time: 2.158       Average images/sec: 92.668      Median images/sec: 88.470
+Training performance = 88.47037506103516 FPS
+
+python main.py --data data/ --bs 10 --ebs 10 --mode benchmark-inference --aspect-ratio-0 2 3 --amp
+DLL 2022-09-07 09:22:51.881399 - () avg_img/sec : 136.72451176441538 images/s med_img/sec : 302.03664320363873 images/s min_img/sec : 57.66594944627378 images/s max_img/sec : 790.215155054825 images/s
+Done benchmarking. Total images: 200    total time: 1.463       Average images/sec: 136.725     Median images/sec: 302.037
+DLL 2022-09-07 09:22:51.900101 - (0,) time : 5.7514848709106445
+
+python main.py --data data/ --bs 10 --ebs 10 --mode benchmark-training --aspect-ratio-0 2 3 --amp
+DLL 2022-09-07 09:24:05.377949 - () avg_img/sec : 95.62780725302814 images/s med_img/sec : 92.17734142175019 images/s min_img/sec : 87.07114238857403 images/s max_img/sec : 110.48166937977757 images/s
+Done benchmarking. Total images: 200    total time: 2.091       Average images/sec: 95.628      Median images/sec: 92.177
+Training performance = 92.17733764648438 FPS
+
+python main.py --data data/ --bs 10 --ebs 10 --mode benchmark-inference --aspect-ratio-0 2 3 4 --amp
+DLL 2022-09-07 22:48:33.139328 - () avg_img/sec : 147.56302065714965 images/s med_img/sec : 292.96386082673513 images/s min_img/sec : 63.9384381797921 images/s max_img/sec : 938.6590278399427 images/s
+Done benchmarking. Total images: 200    total time: 1.355       Average images/sec: 147.563     Median images/sec: 292.964
+DLL 2022-09-07 22:48:33.157673 - (0,) time : 5.136854887008667
+Evaluation loss: 10.404534657796225
+
+python main.py --data data/ --bs 10 --ebs 10 --mode benchmark-training --aspect-ratio-0 2 3 4 --amp
+DLL 2022-09-07 22:48:58.446152 - () avg_img/sec : 99.08588439140718 images/s med_img/sec : 105.05923162402374 images/s min_img/sec : 87.47609910736631 images/s max_img/sec : 109.54274312338727 images/s
+Done benchmarking. Total images: 200    total time: 2.018       Average images/sec: 99.086      Median images/sec: 105.059
+Training performance = 105.05923461914062 FPS
+DLL 2022-09-07 22:48:58.446692 - (0,) time : 7.483254432678223
+Evaluation loss: 7.926362196604411
